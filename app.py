@@ -11,7 +11,7 @@ import plotly.graph_objs as go
 
 ########### Set up the chart
 
-df = pd.read_csv('/Users/eshkol/Desktop/Python/EB/Dataset/titanic.csv')
+df = pd.read_csv('titanic.csv')
 
 results = df.groupby(['Sex','Pclass']).Age.mean()
 
